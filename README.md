@@ -23,11 +23,11 @@
 - login with same username and password
 - go to ATM sites and upload excel file as given on sample-excel-file
 - after upload popup will come your file uploaded successfully
-- ![image](https://github.com/deepsanghani/atm_sites/assets/59606437/603de568-ac8a-490b-8f02-04cddfdacf17)
+  ![image](https://github.com/deepsanghani/atm_sites/assets/59606437/603de568-ac8a-490b-8f02-04cddfdacf17)
 - after that refresh page and all uploaded data will be shown into atm_sites, citys, and states page
-- ![image](https://github.com/deepsanghani/atm_sites/assets/59606437/4dc900e8-f853-4fd2-b727-4a9df4450f1f)
-- ![image](https://github.com/deepsanghani/atm_sites/assets/59606437/4d15eea1-99d4-408b-8232-c57922f6ddc0)
-- ![image](https://github.com/deepsanghani/atm_sites/assets/59606437/d7fa377e-e28e-4756-932c-8fca687ca12b)
+  ![image](https://github.com/deepsanghani/atm_sites/assets/59606437/4dc900e8-f853-4fd2-b727-4a9df4450f1f)
+  ![image](https://github.com/deepsanghani/atm_sites/assets/59606437/4d15eea1-99d4-408b-8232-c57922f6ddc0)
+  ![image](https://github.com/deepsanghani/atm_sites/assets/59606437/d7fa377e-e28e-4756-932c-8fca687ca12b)
   
 
 After Signup or login by user can only see data which is uploaded by superuser

@@ -1,0 +1,50 @@
+{% extends "admin/login.html" %}
+{% block title %}Sign Up Form | One ATM{% endblock %}
+{% block extrahead %}
+<style>
+    .login .form-row #id_username, .login .form-row #id_password, .login .form-row #id_email, .login .form-row #id_password_confirm {
+        padding: 8px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .form-title {
+        text-align: center;
+    }
+</style>
+{% endblock %}
+{% block content %}
+<div class="login-container">
+    <h2 class="form-title">Sign Up Page</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.non_field_errors }} 
+        <div class="form-row">
+            {{ form.username.errors }} 
+            <label for="{{ form.username.id_for_label }}">Username:</label>
+            {{ form.username }}
+        </div>
+        <div class="form-row">
+            {{ form.email.errors }} 
+            <label for="{{ form.email.id_for_label }}">Email Id:</label>
+            {{ form.email }}
+        </div>
+        <div class="form-row">
+            {{ form.password.errors }} 
+            <label for="{{ form.password.id_for_label }}">Password:</label>
+            {{ form.password }}
+        </div>
+        <div class="form-row">
+            {{ form.password_confirm.errors }} 
+            <label for="{{ form.password_confirm.id_for_label }}">Confirm Password:</label>
+            {{ form.password_confirm }}
+        </div>
+        <br>
+        Already Registered? 
+        <a href="{% url 'admin:index' %}">Login</a>
+        <div class="submit-row">
+            <input type="submit" value="Sign Up"> 
+        </div>
+    </form>
+</div>
+{% endblock %}
